@@ -1,3 +1,4 @@
-# Pi
-Raspberry Pi projects
-There are separate branches for every version of PI , I am using! 
+# Raspberry Pi model 4 B 
+Model description: 
+
+
