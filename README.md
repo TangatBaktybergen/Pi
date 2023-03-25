@@ -1,3 +1,3 @@
 # Pi
 Raspberry Pi projects
-,ö,ö,ö,ö,ö,ö,ö
+There are separate branches for every version of PI , I am using! 
