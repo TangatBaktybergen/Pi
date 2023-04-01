@@ -1,0 +1,35 @@
+# save as camera.py
+# Works only with monitor . No ssh or vnc
+
+from picamera import PiCamera
+from time import sleep
+
+camera = PiCamera()
+
+#camera.rotation = 180 to rotate your camera if it is upside-down 
+#rotation angles 0,90,180 or 270
+
+# alpha (0-255) makes your camera view see through so you can see errors on the command line if you have any
+# remove alpha=200 to disable it
+
+camera.start_preview(alpha=200)
+sleep(5)
+
+# 1) camera.capture('/home/pi/Desktop/image.jpg') : to take picture camera.capture()
+# 2) takes 5 picture with for loop:
+#for i in range(5):
+# sleep(5)
+# camera.capture('/home/pi/Desktop/image%.jpg' % i) : takes 5 pictures and names as image%.jpg , % meaning i order of loop
+
+
+camera.stop_preview()
+
+#The camera preview should be shown for five seconds and then close again.
+
+######## Below is the part for the video recording
+#Your Raspberry Pi should open a preview, record 5 seconds of video, and then close the preview.
+camera.start_preview()
+camera.start_recording('/home/pi/Desktop/video.h264')
+sleep(5)
+camera.stop_recording()
+camera.stop_preview()
