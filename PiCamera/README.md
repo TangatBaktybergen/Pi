@@ -5,7 +5,7 @@ This is the code to test video streaming from Pi Camera Rev 1.3 connected to Ras
   >> Press I on keyboard for Insert mode and Escape followed by " :x " to save the file and quit.
   To check if your file content is saved , read the file on the shell : cat "filename" 
 
-*NEVER save the file as picamera.py because it is librarys name!
+* NEVER save the file as picamera.py because it is librarys name!
 
 
 Raspberry pi is hosting webserver to stream pi camera. To access camera , go to your browser and type "Your_Pi_IP":8000 . 
