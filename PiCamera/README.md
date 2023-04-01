@@ -3,3 +3,5 @@ This is the code to test video streaming from Pi Camera Rev 1.3 connected to Ras
 Raspberry pi is hosting webserver to stream pi camera. To access camera , go to your browser and type "Your_Pi_IP":8000 . 
 
 The code is taken from Randomnerdtutorials.com
+
+Before accessing your camera , make sure the legacy camera support is enabled on your raspberry pi. Check or change through "sudo raspi-config" > Interface options > Enable legacy camera support > reboot your Pi.
