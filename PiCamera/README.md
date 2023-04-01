@@ -6,7 +6,7 @@ This is the code to test video streaming from Pi Camera Rev 1.3 connected to Ras
   To check if your file content is saved , read the file on the shell : cat "filename" 
 
 * NEVER save the file as picamera.py because it is librarys name!
-
+*  The maximum resolution is 2592×1944 for still photos, and 1920×1080 for video recording.
 
 Raspberry pi is hosting webserver to stream pi camera. To access camera , go to your browser and type "Your_Pi_IP":8000 . 
 
