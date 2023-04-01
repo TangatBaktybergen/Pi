@@ -5,3 +5,6 @@ Raspberry pi is hosting webserver to stream pi camera. To access camera , go to 
 The code is taken from Randomnerdtutorials.com
 
 Before accessing your camera , make sure the legacy camera support is enabled on your raspberry pi. Check or change through "sudo raspi-config" > Interface options > Enable legacy camera support > reboot your Pi.
+
+Save the file as .py python file and to run on shell write : pythone3 "yourPyFileName".py
+Then go to your browser on PC and do previous steps!
