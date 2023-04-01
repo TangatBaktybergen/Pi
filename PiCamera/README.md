@@ -36,4 +36,5 @@ Now to access the camera module , you must download "picamera" library on your r
    To check pip version : pip3 --version
    
    To install "picamera" library : sudo apt-get install python3-picamera
-   
+ 
+ * further reading to do : https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/7
