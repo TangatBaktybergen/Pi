@@ -40,3 +40,5 @@ You can create your cgi scripts in your cgi-bin direction!
 To access : your cgi script on the browser : "ip_of_pi"/cgi-bin/"filename-cgi"
 
 Try example date.cgi which shows date on the browser!
+
+To check errors: cat /var/log/apache2/error.log
